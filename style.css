@@ -1,0 +1,84 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.school{
+    display: flex;
+}
+
+.display_flex{
+    display: flex;
+    
+}
+.button-one{
+    background-color: orange;
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+}
+.list_item{
+    list-style: none;
+    margin-right: 30px;
+}
+.nav_link{
+    text-decoration: none;
+}
+#link_one{
+    color: orange;
+}
+#link_two{
+color: skyblue;
+}
+#link_three{
+    color: #05D4DF;
+}
+#link_fore{
+    color: #5D58EF;
+
+}
+.button_icon{
+    display: none;
+}
+@media screen and (max-width: 576px){
+    .button_icon{
+        display: block;
+    }
+    .list_item{
+        display: none;
+    }
+    .button-one{
+        display: none;
+    }
+    .h_two{
+        display: none;
+    }
+    
+}
+/* header close */
+/* hero section strat */
+
+
+.hero_container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.Empowering{
+    color: orange;
+}
+.towards_vision{
+color: skyblue;
+}
+.hero_peragaph{
+    color: black;
+}
+.hero_button_two{
+    background-color: black;
+    color: #ffffff;
+    border-radius: 10px;
+    width: 145px;
+    height: 30px;
+}
+/* hero section close */
