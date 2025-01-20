@@ -16,6 +16,7 @@
     border-radius: 10px;
     width: 150px;
     height: 30px;
+    color: #ffffff;
 }
 .list_item{
     list-style: none;
@@ -50,6 +51,7 @@ color: skyblue;
     }
     .button-one{
         display: none;
+        
     }
     .h_two{
         display: none;
@@ -65,6 +67,9 @@ color: skyblue;
     justify-content: space-evenly;
     align-items: center;
     
+}
+.hero_head{
+    font-size: 50px;
 }
 .Empowering{
     color: orange;
@@ -97,3 +102,37 @@ color: skyblue;
     
 }
 /* hero section close */
+ /* main section start   */
+ .peragaph{
+    color: #000000;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 2rem;
+    margin-bottom: 80px;
+ }
+ .card_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+ }
+ .card_head{
+    color: #202020;
+ }
+ .card_peragaph{
+    color: #808080;
+ }
+ .card_button{
+    text-align: center;
+    margin-top: 39px;
+    margin-bottom: 59px;
+    background-color: #ffffff;
+ }
+ #button-one{
+color: #64C8FF;
+ }
+ #button-two{
+color: #F0AA00;
+ }
+ #button-three{
+    color: #8700FF;
+
+ }
