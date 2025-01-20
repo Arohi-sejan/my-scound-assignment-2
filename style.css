@@ -40,6 +40,7 @@ color: skyblue;
 .button_icon{
     display: none;
 }
+
 @media screen and (max-width: 576px){
     .button_icon{
         display: block;
@@ -80,5 +81,19 @@ color: skyblue;
     border-radius: 10px;
     width: 145px;
     height: 30px;
+}
+
+@media screen and (max-width: 576px){
+    .hero_container{
+        flex-direction: column-reverse;
+    }
+    .hero_img{
+        width: 350px;
+        
+    }
+    .hero_content{
+        text-align: center;
+    }
+    
 }
 /* hero section close */
