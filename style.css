@@ -103,6 +103,11 @@ color: skyblue;
 }
 /* hero section close */
  /* main section start   */
+/* .main_card_section{
+    background-image:bg.png;
+} */
+ 
+ 
  .peragaph{
     color: #000000;
     text-align: center;
@@ -113,6 +118,28 @@ color: skyblue;
  .card_container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    max-width: 80%;
+    margin: auto;
+    gap: 20px;
+ }
+ #card_id_one{
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+    background: linear-gradient(to bottom, #dff1ff, #FFFFFF);
+    
+ }
+#card_id_two{
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+    background: linear-gradient(to bottom, #ffcff9, #FFFFFF);
+}
+#card_id_three{
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+    background: linear-gradient(to bottom, #e4d2fa, #FFFFFF);
+}
+
+ .card{
+    text-align: center;
+    border-radius: 10px;
+    
  }
  .card_head{
     color: #202020;
@@ -128,6 +155,7 @@ color: skyblue;
  }
  #button-one{
 color: #64C8FF;
+;
  }
  #button-two{
 color: #F0AA00;
@@ -136,3 +164,162 @@ color: #F0AA00;
     color: #8700FF;
 
  }
+ 
+ .angle_brackets_btn{
+    text-align: center;
+    display: flex;
+    position: relative;
+    margin-top: 40px;
+
+ }
+ .angle_brackets_button{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+
+ }
+
+ .angle_brackets_icon-one{
+    background-color:orange ;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .angle_brackets_icon{
+    background-color: orange;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+ }
+ /* main_card_section close  */
+ /* Our Stories card section strat */
+ /* grid strat */
+ .Our_Stories{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+ }
+ .grid_img{
+    width: 100%;
+    /* height: 100%; */
+    border-radius: 20px 20px 0 0;
+ }
+ 
+ .grid_item{
+    border: 2px solid black;
+    border-radius: 20px;
+    position: relative;
+ }
+ #story-1{
+    grid-row: span 2;
+    
+ }
+ /* Makeup part */
+ .grid_header{
+    color: #000000;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 65px;
+ }
+ .grid_peragraph{
+    color: #666666;
+ }
+ .grid_button_one{
+    background-color: #3CD8E8;
+    color: #ffffff;
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+margin-top: 240px;
+margin-left: 20px;
+ }
+ .grid_button_two{
+    background-color: #95B226;
+    color: #ffffff;
+    border-radius: 10px;
+    height: 40px;
+    width: 150px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+margin-top: 240px;
+margin-left: 20px;
+ }
+ .grid_button_three{
+    background-color: #5D58F0;
+    color: #ffffff;
+    border-radius: 10px;
+    height: 40px;
+    width: 150px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+margin-top: 240px;
+margin-left: 20px;
+ }
+ .grid_button_fore{
+    background-color: #95B226;
+    color: #ffffff;
+    border-radius: 10px;
+    height: 40px;
+    width: 150px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+margin-top: 240px;
+margin-left: 20px;
+ }
+ .grid_button_five{
+    background-color: #95B226;
+    color: #ffffff;
+    border-radius: 10px;
+    height: 40px;
+    width: 150px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+margin-top: 240px;
+margin-left: 20px;
+ }
+ /* grid close */
+ /* Our Stories card section close */
+ .view_button{
+    background-color: black;
+    border-radius: 10px;
+    height:50px ;
+    width: 200px;
+    color: #ffffff;
+ }
+ .view_all{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 60px ;
+ }
+/* main section close */
+/* footer start */
+.footer_section{
+    background-color:#74c6d1;
+}
+.footer_container{
+    display: flex;
+    justify-content: space-evenly;
+    color: #ffffff;
+   
+}
