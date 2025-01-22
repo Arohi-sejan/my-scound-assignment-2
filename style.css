@@ -185,29 +185,65 @@ color: #F0AA00;
  .angle_brackets_icon-one{
     background-color:orange ;
     border-radius: 50px;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #ffffff;
  }
  .angle_brackets_icon{
     background-color: orange;
     border-radius: 50px;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
+    color: #ffffff; 
  }
+
+
  /* main_card_section close  */
  /* Our Stories card section strat */
  /* grid strat */
+ /* .grid_section_cl{
+    background-image:bg.png;
+ } */
  .Our_Stories{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
  }
+ .story_one_class{
+    width:540px ;
+    height:439px ;
+ }
+ .container_one_class{
+    width:540px ;
+    /* height:337px ; */
+    /* text-align: center; */
+ }
+ /* .story_two_class{
+    width: 291px ;
+    height: 180px ;
+ } */
+ .container_two_class{
+    width: 291px ;
+    height: 110px ;
+ }
+ .our_stories_head_one{
+    margin-top: 10px ;
+    margin-bottom: 50px ;
+    margin-left: 30px;
+ }
+ .our_stories_head_two{
+    margin-top: 43px ;
+    margin-bottom: 33px ;
+    margin-left: 67px;
+    margin-right:54px ;
+ }
+
  .grid_img{
     width: 100%;
     /* height: 100%; */
@@ -224,6 +260,7 @@ color: #F0AA00;
     
  }
  /* Makeup part */
+ 
  .grid_header{
     color: #000000;
     font-size: 2.5rem;
@@ -232,6 +269,8 @@ color: #F0AA00;
  }
  .grid_peragraph{
     color: #666666;
+    margin-top: 10px;
+    margin-left: 30px ;
  }
  .grid_button_one{
     background-color: #3CD8E8;
@@ -243,8 +282,8 @@ color: #F0AA00;
     top: 0;
     left: 0;
     bottom: 0;
-margin-top: 240px;
-margin-left: 20px;
+margin-top: 320px;
+margin-left: 30px;
  }
  .grid_button_two{
     background-color: #95B226;
@@ -256,8 +295,8 @@ margin-left: 20px;
     top: 0;
     left: 0;
     bottom: 0;
-margin-top: 240px;
-margin-left: 20px;
+margin-top: 210px;
+margin-left: 30px;
  }
  .grid_button_three{
     background-color: #5D58F0;
@@ -269,8 +308,8 @@ margin-left: 20px;
     top: 0;
     left: 0;
     bottom: 0;
-margin-top: 240px;
-margin-left: 20px;
+margin-top: 210px;
+margin-left: 30px;
  }
  .grid_button_fore{
     background-color: #95B226;
@@ -282,8 +321,8 @@ margin-left: 20px;
     top: 0;
     left: 0;
     bottom: 0;
-margin-top: 240px;
-margin-left: 20px;
+margin-top: 210px;
+margin-left: 30px;
  }
  .grid_button_five{
     background-color: #95B226;
@@ -295,22 +334,22 @@ margin-left: 20px;
     top: 0;
     left: 0;
     bottom: 0;
-margin-top: 240px;
-margin-left: 20px;
+margin-top: 210px;
+margin-left: 30px;
  }
  /* grid close */
  /* Our Stories card section close */
  .view_button{
     background-color: black;
     border-radius: 10px;
-    height:50px ;
-    width: 200px;
+    height:40px ;
+    width: 150px;
     color: #ffffff;
  }
  .view_all{
     text-align: center;
-    margin-top: 80px;
-    margin-bottom: 60px ;
+    margin-top: 60px;
+    margin-bottom: 30px ;
  }
 /* main section close */
 /* footer start */
