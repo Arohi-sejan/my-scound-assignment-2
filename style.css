@@ -380,6 +380,17 @@ margin-left: 30px;
     color: #ffffff;
    
 }
+.Programming_Hero{
+    background-color: #bada3b;
+    color: #ec0606;
+    font-size: 20px;
+}
+.marque{
+    margin-top: 20px ;
+    margin-bottom: 30px ;
+    font-size: 60px;
+    background: linear-gradient(to bottom, #FFFFFF, #ffddfa,#fdd0f3, #64C8FF);
+}
 @media screen and (max-width: 576px){
     .peragaph{
         text-align: center;
@@ -498,5 +509,16 @@ margin-left: 30px;
         justify-content: space-evenly;
         color: #ffffff;
         margin-left: 20px;
+}
+.Programming_Hero{
+    background-color: #bada3b;
+    color: #ec0606;
+    font-size: 8px;
+}
+.marque{
+    margin-top: 10px ;
+    margin-bottom: 15px ;
+    font-size: 20px;
+    background: linear-gradient(to bottom, #FFFFFF, #ffddfa,#fdd0f3, #64C8FF);
 }
 }
